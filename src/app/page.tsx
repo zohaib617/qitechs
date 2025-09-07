@@ -17,10 +17,10 @@ export default function HomePage() {
 
   // Hero Slideshow Texts
   const heroTexts = [
-    "🚀 Grow Your Business with Qitechs",
-    "⚡ Smart IT Solutions for Every Need",
-    "🤖 AI & Automation for Future Businesses",
-    "📊 Manage Sales, Finance & HR with Ease",
+    " Grow Your Business with Qitechs",
+    " Smart IT Solutions for Every Need",
+    " AI & Automation for Future Businesses",
+    " Manage Sales, Finance & HR with Ease",
   ];
 
   // Auto change text every 3s
@@ -303,7 +303,7 @@ export default function HomePage() {
             onClick={() => scrollToSection("products")}
             className="px-8 py-3 rounded-2xl bg-[#50A959] text-white font-semibold shadow-lg hover:scale-105 transition"
           >
-            🚀 Explore Products
+             Explore Products
           </button>
           <a
             href="https://wa.me/923198251617"
@@ -480,7 +480,7 @@ export default function HomePage() {
       <section id="ai-agents" className="py-24 bg-white text-center">
         <div className="max-w-4xl mx-auto p-8 bg-gray-50 rounded-2xl shadow-xl border border-gray-200">
           <h3 className="text-3xl font-bold text-[#56585A] mb-6">
-            🤖 AI Agents & Automation
+             AI Agents & Automation
           </h3>
           <p className="text-[#56585A] leading-relaxed mb-6">
             Qitechs AI Agents help businesses automate daily workflows,
@@ -499,7 +499,7 @@ export default function HomePage() {
       <section id="billing" className="py-24 bg-white text-center">
         <div className="max-w-4xl mx-auto p-8 bg-gray-50 rounded-2xl shadow-xl border border-gray-200">
           <h3 className="text-3xl font-bold text-[#56585A] mb-6">
-            💳 Inventory & Billing System
+             Inventory & Billing System
           </h3>
           <p className="text-[#56585A] leading-relaxed mb-6">
             Manage sales, track inventory, and generate bills with ease.
@@ -535,7 +535,7 @@ export default function HomePage() {
       <section id="finance" className="py-24 bg-white text-center">
         <div className="max-w-4xl mx-auto p-8 bg-gray-50 rounded-2xl shadow-xl border border-gray-200">
           <h3 className="text-3xl font-bold text-[#56585A] mb-6">
-            📊 Finance Solutions
+             Finance Solutions
           </h3>
           <p className="text-[#56585A] leading-relaxed mb-6">
             Powerful finance software that automates salary, invoices,
@@ -553,7 +553,7 @@ export default function HomePage() {
       <section id="custom" className="py-24 bg-white text-center">
         <div className="max-w-4xl mx-auto p-8 bg-gray-50 rounded-2xl shadow-xl border border-gray-200">
           <h3 className="text-3xl font-bold text-[#56585A] mb-6">
-            ⚡ Custom Business Software
+             Custom Business Software
           </h3>
           <p className="text-[#56585A] leading-relaxed mb-6">
             We design tailor-made business software solutions according
