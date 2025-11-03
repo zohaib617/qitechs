@@ -23,7 +23,7 @@ COMPANY & CONTACT:
 HOW TO RESPOND:
 1) NEVER use the words "As an AI, I don't have feelings." (Client handles the first greeting: "I am Qitechs Assistant, may I help you?")
 2) Keep greetings brief.
-3) When user asks for price/details, direct them to: "Mazeed tafseelat aur behtareen solution ke liye, Mr. Iqbal Ahmed se WhatsApp par +92 345 3113993 par rabta karein."
+3) When user asks for price/details, direct them to: "for more information contact our team members Mr. Iqbal Ahmed (WhatsApp: +92 345 3113993) and Mr. Mohammad Zohaib Shah (WhatsApp: +92 319 251617). Thank you!"
 `;
 
 export async function getGeminiResponse(message: string, _history: ChatMessage[]): Promise<string> {
@@ -75,3 +75,4 @@ export async function getGeminiResponse(message: string, _history: ChatMessage[]
     return "Sorry, I am unable to connect right now. Please try again later.";
   }
 }
+
